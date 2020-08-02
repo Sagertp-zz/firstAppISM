@@ -1,0 +1,34 @@
+{
+  "name": "firstappism",
+  "version": "1.0.0",
+  "description": "Record of pending activities of ISM coordination.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "dev": "nodemon src/index.js --exec babel-node",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sagertp/firstAppISM.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sagertp/firstAppISM/issues"
+  },
+  "homepage": "https://github.com/Sagertp/firstAppISM#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.10.4",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "nodemon": "^2.0.4"
+  }
+}
